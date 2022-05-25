@@ -1,0 +1,6 @@
+version: '3'
+services:
+  httpd:
+    ports:
+      - "80:80"
+    build: ./Dockerfile
